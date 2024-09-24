@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-class SingleCocktailCardViewController: UIViewController {
+final class SingleCocktailCardViewController: UIViewController {
     
     // MARK: - IB Outlets
     @IBOutlet private var cocktialImageView: UIImageView!

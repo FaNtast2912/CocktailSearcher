@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		587761A72CA2D33900860B58 /* SingleCocktailCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587761A62CA2D33900860B58 /* SingleCocktailCardViewController.swift */; };
 		587761AA2CA2F13500860B58 /* RawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587761A92CA2F13500860B58 /* RawData.swift */; };
+		587761AC2CA3022C00860B58 /* drinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587761AB2CA3022C00860B58 /* drinkModel.swift */; };
+		587761AE2CA30EF800860B58 /* URLSession+data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587761AD2CA30EF700860B58 /* URLSession+data.swift */; };
 		5877778B2CA288EF0095530A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877778A2CA288EF0095530A /* AppDelegate.swift */; };
 		5877778D2CA288EF0095530A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877778C2CA288EF0095530A /* SceneDelegate.swift */; };
 		5877778F2CA288EF0095530A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877778E2CA288EF0095530A /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		587761A62CA2D33900860B58 /* SingleCocktailCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCocktailCardViewController.swift; sourceTree = "<group>"; };
 		587761A92CA2F13500860B58 /* RawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawData.swift; sourceTree = "<group>"; };
+		587761AB2CA3022C00860B58 /* drinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drinkModel.swift; sourceTree = "<group>"; };
+		587761AD2CA30EF700860B58 /* URLSession+data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+data.swift"; sourceTree = "<group>"; };
 		587777872CA288EF0095530A /* CocktailSearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailSearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5877778A2CA288EF0095530A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5877778C2CA288EF0095530A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 		587761A42CA2D30400860B58 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				587761AD2CA30EF700860B58 /* URLSession+data.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 		587761A52CA2D31800860B58 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				587761AB2CA3022C00860B58 /* drinkModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -320,6 +326,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587761AE2CA30EF800860B58 /* URLSession+data.swift in Sources */,
+				587761AC2CA3022C00860B58 /* drinkModel.swift in Sources */,
 				5877778F2CA288EF0095530A /* ViewController.swift in Sources */,
 				5877778B2CA288EF0095530A /* AppDelegate.swift in Sources */,
 				587761A72CA2D33900860B58 /* SingleCocktailCardViewController.swift in Sources */,
