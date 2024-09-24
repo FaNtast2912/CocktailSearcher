@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		587761A72CA2D33900860B58 /* SingleCocktailCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587761A62CA2D33900860B58 /* SingleCocktailCardViewController.swift */; };
+		587761AA2CA2F13500860B58 /* RawData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587761A92CA2F13500860B58 /* RawData.swift */; };
 		5877778B2CA288EF0095530A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877778A2CA288EF0095530A /* AppDelegate.swift */; };
 		5877778D2CA288EF0095530A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877778C2CA288EF0095530A /* SceneDelegate.swift */; };
 		5877778F2CA288EF0095530A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5877778E2CA288EF0095530A /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		587761A62CA2D33900860B58 /* SingleCocktailCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCocktailCardViewController.swift; sourceTree = "<group>"; };
+		587761A92CA2F13500860B58 /* RawData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RawData.swift; sourceTree = "<group>"; };
 		587777872CA288EF0095530A /* CocktailSearcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocktailSearcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5877778A2CA288EF0095530A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5877778C2CA288EF0095530A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		587761A02CA2D2B200860B58 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		587761A12CA2D2CF00860B58 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		587761A22CA2D2DC00860B58 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5877778E2CA288EF0095530A /* ViewController.swift */,
+				587761A62CA2D33900860B58 /* SingleCocktailCardViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		587761A32CA2D2FB00860B58 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		587761A42CA2D30400860B58 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		587761A52CA2D31800860B58 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		587761A82CA2F11E00860B58 /* Raw Data */ = {
+			isa = PBXGroup;
+			children = (
+				587761A92CA2F13500860B58 /* RawData.swift */,
+			);
+			path = "Raw Data";
+			sourceTree = "<group>";
+		};
 		5877777E2CA288EF0095530A = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +155,15 @@
 		587777892CA288EF0095530A /* CocktailSearcher */ = {
 			isa = PBXGroup;
 			children = (
+				587761A82CA2F11E00860B58 /* Raw Data */,
+				587761A52CA2D31800860B58 /* Models */,
+				587761A42CA2D30400860B58 /* Extentions */,
+				587761A32CA2D2FB00860B58 /* Constants */,
+				587761A22CA2D2DC00860B58 /* ViewControllers */,
+				587761A12CA2D2CF00860B58 /* Helpers */,
+				587761A02CA2D2B200860B58 /* Services */,
 				5877778A2CA288EF0095530A /* AppDelegate.swift */,
 				5877778C2CA288EF0095530A /* SceneDelegate.swift */,
-				5877778E2CA288EF0095530A /* ViewController.swift */,
 				587777902CA288EF0095530A /* Main.storyboard */,
 				587777932CA288F00095530A /* Assets.xcassets */,
 				587777952CA288F00095530A /* LaunchScreen.storyboard */,
@@ -260,7 +322,9 @@
 			files = (
 				5877778F2CA288EF0095530A /* ViewController.swift in Sources */,
 				5877778B2CA288EF0095530A /* AppDelegate.swift in Sources */,
+				587761A72CA2D33900860B58 /* SingleCocktailCardViewController.swift in Sources */,
 				5877778D2CA288EF0095530A /* SceneDelegate.swift in Sources */,
+				587761AA2CA2F13500860B58 /* RawData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
